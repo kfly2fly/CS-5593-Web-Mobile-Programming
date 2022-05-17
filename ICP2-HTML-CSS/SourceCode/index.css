@@ -1,0 +1,59 @@
+/* Class Tag */
+
+body {
+    background-color: dimgrey;
+}
+.blue{
+    color: blue;
+}
+
+.italics{
+    font-style: italic;
+}
+
+
+
+.h {
+    border-width: 6px;
+    border-style: outset;
+    border-color: #00A4BD #33475B #FF7A59 yellow;
+    align: right;
+    border-radius: 10%;
+}
+
+
+/* ID Tag */
+#sec-a{
+    color: blue;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+ul .navB{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  display: inline-block;
+}
+
+li .listB{
+  float: left;
+}
+
+.listB a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: dimgrey;
+}

@@ -1,0 +1,64 @@
+/*Add margin to Bootstrap container class*/
+.container {
+  padding-bottom: 25px;
+}
+
+/*Right align text in bootstrap grid*/
+.right {
+  text-align: right;
+  align-content: right;
+}
+
+/*Add color to text*/
+.green{
+  color: #747704;
+}
+.grey{
+  color: #BCBBBB;
+}
+
+/*Customize horizontal bar*/
+.hr_class {
+        min-height: 10px;
+        color: #747704;
+}
+
+/*Customize image fit*/
+.fit_main{
+    width: 100%;
+    max-width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+.fit{
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 80%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/*Remove underline from links and add color*/
+.app_link{
+  color: #747704;
+  text-decoration: none;
+}
+
+
+/* If the screen size is 600px wide or less, set the display-5 font-size will be 150% and small will be 15px*/
+@media screen and (max-width: 600px) {
+  .display-5 {
+    font-size: 150%;
+  }
+  .small {
+    font-size: 15px;
+    background-color: skyblue;
+  }
+}
+/*If screen size is bigger, font-size will be 120%*/
+@media screen and (min-width: 601px) {
+  .small {
+    font-size: 120%;
+  }
+}
